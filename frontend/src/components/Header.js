@@ -143,13 +143,13 @@ const Header = () => {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>
-              <img
+              {/* <img
 								src="/images/image_low.png"
 								className="nav-logo"
 								alt="logo"
 								heght="3rem"
-							/>
-              Bangalore Food Bank
+							/> */}
+              Food Bank
             </Navbar.Brand>
             </LinkContainer>
            
@@ -168,11 +168,11 @@ const Header = () => {
                   }
             }
           >
-            <LinkContainer to="/aboutUs" variant="primary">
+            {/* <LinkContainer to="/aboutUs" variant="primary">
                   <Nav.Link>
                   <i class="fa fa-info-circle" aria-hidden="true" /> About
                   </Nav.Link>
-            </LinkContainer>
+            </LinkContainer> */}
             <LinkContainer to="/campaigns" variant="primary">
               <AlertDialogSlide />
             </LinkContainer>
