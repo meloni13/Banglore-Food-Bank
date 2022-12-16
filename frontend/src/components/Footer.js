@@ -44,7 +44,7 @@ const Footer = () => {
 					</a>
 				</div>
 				<div className="footer-copyright">
-					<a href="/">&copy;2022 Banglore Food Bank</a>
+					<a href="/">&copy;2022 Food Bank</a>
 				</div>
 			</footer>
 		</Container>
